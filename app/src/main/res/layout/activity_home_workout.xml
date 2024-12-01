@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundhomeworkout"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/backtext"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:drawableLeft="@drawable/backarrow"
+        android:gravity="center"
+        android:text="Add New Home Exercise"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Title"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/exeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/blackborder"
+        android:gravity="center"
+        android:hint="Crunches" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Duration"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/exeDuration"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/blackborder"
+        android:gravity="center"
+        android:hint="2sets|10reps|30rest" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Description"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/exeDescription"
+        android:layout_width="match_parent"
+        android:layout_height="191dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/blackborder"
+        android:fadeScrollbars="true"
+        android:gravity="start"
+        android:hint="Exercise Description"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Image Url"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/exeImageUrl"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/blackborder"
+        android:gravity="center"
+        android:hint="GIF Image Url"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnExeSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="70dp"
+        android:backgroundTint="#8194CE"
+        android:gravity="center"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="21dp" />
+
+
+</LinearLayout>

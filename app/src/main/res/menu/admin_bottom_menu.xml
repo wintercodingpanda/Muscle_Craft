@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/adminfeedback"
+        android:icon="@drawable/feedbackicon"
+        android:title="Feedback" />
+    <item
+        android:id="@+id/adminhealthtips"
+        android:icon="@drawable/health_tips"
+        android:title="Health Tips"/>
+
+    <item
+        android:id="@+id/addhomeworkout"
+        android:icon="@drawable/homeworkout"
+        android:title="Homeworkout"/>
+
+
+
+</menu>

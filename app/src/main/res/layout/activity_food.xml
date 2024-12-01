@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/foodbackk"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_marginTop="27dp"
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="5dp">
+
+        <ImageView
+            android:id="@+id/backbutton"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:paddingStart="6dp"
+            android:src="@drawable/backbutton" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingStart="15dp"
+            android:paddingTop="4dp"
+            android:text="Diet Tips"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/text"
+        android:paddingTop="5dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/tipsRV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rLaybahar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/popup"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:id="@+id/imgLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img11"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/health_tips"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/titletext1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgLL"
+                android:layout_marginBottom="10dp"
+                android:text="Book Name"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desctext1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titletext1"
+                android:text="Description"
+                android:textColor="#000"
+                android:textSize="27sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/desctext1"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/btnBackIt"
+                    android:layout_width="173dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="15dp"
+                    android:backgroundTint="#557355"
+                    android:drawableLeft="@drawable/backarrow"
+                    android:gravity="center_vertical"
+                    android:paddingStart="36dp"
+                    android:text="Back"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</androidx.cardview.widget.CardView>

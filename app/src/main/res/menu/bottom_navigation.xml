@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/chest"
+        android:icon="@drawable/chest"
+        android:title="Chest" />
+    <item
+        android:id="@+id/legs"
+        android:icon="@drawable/legs"
+        android:title="Legs" />
+    <item
+        android:id="@+id/arms"
+        android:icon="@drawable/arms"
+        android:title="Arms"/>
+
+    <item
+        android:id="@+id/abs"
+        android:icon="@drawable/absicon"
+        android:title="Abs"/>
+
+
+</menu>

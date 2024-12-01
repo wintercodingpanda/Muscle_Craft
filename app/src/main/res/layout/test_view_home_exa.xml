@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".detail_home_exer_layout">
+
+    <TextView
+        android:id="@+id/textback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:drawableLeft="@drawable/backarrow"
+        android:gravity="center"
+        android:paddingStart="3dp"
+        android:text="Muscle craft"
+        android:textSize="25sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+
+            <ImageView
+                android:id="@+id/homeGifImg"
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                app:srcCompat="@drawable/arms1" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_below="@+id/homeGifImg"
+                android:background="@color/underline" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/homeGifImg"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:text="Exercises Name"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/homeExeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:text="Dumbbell Fly"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+            <View
+                android:id="@+id/v1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/homeExeName"
+                android:layout_marginTop="15dp"
+                android:background="@color/underline" />
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/v1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exercises Time"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/homeExeDuration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="2*30"
+                    android:textColor="@color/black"
+                    android:textSize="26sp" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/v2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/linear1"
+                android:layout_marginTop="10dp"
+                android:background="@color/underline" />
+
+            <RelativeLayout
+                android:id="@+id/relative_extime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/v2"
+                android:gravity="center"
+                android:paddingVertical="10dp">
+
+                <TextView
+                    android:id="@+id/time_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingStart="50dp"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textSize="56sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/time_view"
+                    android:layout_marginStart="10dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/start_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="10dp"
+                        android:onClick="onClickStart"
+                        android:text="@string/start"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/stop_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="8dp"
+                        android:onClick="onClickStop"
+                        android:text="@string/stop"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/reset_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="8dp"
+                        android:onClick="onClickReset"
+                        android:text="@string/reset"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/v3"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/relative_extime"
+                android:layout_marginTop="10dp"
+                android:background="@color/underline" />
+
+            <ScrollView
+                android:id="@+id/scrollview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relative_extime"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/relative_house_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="10dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Exercises Description"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/homeExeDescription"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Dumbbell fly exercise targets the sternal heads of your pectoralis major muscles, which are found in your chest, but also strengthens your triceps, deltoids, biceps, wrist flexors and brachialis muscles."
+                            android:textColor="@color/black"
+                            android:textSize="26sp" />
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+            </ScrollView>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

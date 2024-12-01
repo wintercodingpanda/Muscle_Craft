@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_feedback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/feedbackimg"
+    tools:context=".feedback_view_admin">
+
+    <TextView
+        android:layout_marginTop="36dp"
+        android:id="@+id/backtext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableStart="@drawable/backarrow"
+        android:drawablePadding="110dp"
+        android:gravity="center_vertical"
+        android:text="Feedback"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/feedbackRV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

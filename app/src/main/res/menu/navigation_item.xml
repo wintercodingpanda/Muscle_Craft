@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home"
+
+            />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/name"
+            android:title="Profile" />
+        <item
+            android:id="@+id/contect"
+            android:icon="@drawable/ic_1"
+            android:title="Contect us" />
+
+        <item
+            android:id="@+id/feespeyment"
+            android:icon="@drawable/coffeecup"
+            android:title="By me a Protein" />
+
+        <item
+            android:id="@+id/homeworkout"
+            android:icon="@drawable/homeworkout"
+            android:title="Home Workout" />
+
+        <item
+            android:id="@+id/healthtips"
+            android:icon="@drawable/health_tips"
+            android:title="Health Tips" />
+
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/baseline_logout_24"
+            android:title="Logout" />
+    </group>
+</menu>

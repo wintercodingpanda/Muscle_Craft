@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "208713993054",
+    "project_id": "passwordchek",
+    "storage_bucket": "passwordchek.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208713993054:android:bd5719dc31c25631d11dcf",
+        "android_client_info": {
+          "package_name": "com.example.passwordchek"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw3oo_bKQhNKWHzlLMygL_FFQjIvRwj6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

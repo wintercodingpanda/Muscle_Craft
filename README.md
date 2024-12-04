@@ -1,12 +1,10 @@
 <img width="128" alt="Splash screen" src="https://github.com/user-attachments/assets/d6338e1f-5514-4fa6-a0c4-670665dd8778">
 <img width="128" alt="Side drawer  Menu Bar" src="https://github.com/user-attachments/assets/220e4d4d-771a-4f61-8d8c-7c61bc39601a">
-<img width="128" alt="Side drawer  Menu Bar" src="https://github.com/user-attachments/assets/ea69f938-f536-49b5-8628-e2931bc4cf06">
-<img width="128" alt="Side drawer  Menu Bar" src="https://github.com/user-attachments/assets/c2f693bb-845f-48cd-9df8-5e249b2e1ced">
+<img width="128" alt="Send Email" src="https://github.com/user-attachments/assets/ea69f938-f536-49b5-8628-e2931bc4cf06">
+<img width="128" alt="Search" src="https://github.com/user-attachments/assets/c2f693bb-845f-48cd-9df8-5e249b2e1ced">
 <img width=128 alt="Registration page" src="https://github.com/user-attachments/assets/7c38f970-876c-4f24-bfbc-087d10da0ae7">
 
 
-
-![Registration page ](https://github.com/user-attachments/assets/7c38f970-876c-4f24-bfbc-087d10da0ae7)
 ![home workout](https://github.com/user-attachments/assets/2f0a2fd7-a2e9-4ae5-9765-29411d2e3348)
 ![Health tips ](https://github.com/user-attachments/assets/a87d974a-5c25-4665-a7a1-5d4a927414e3)
 ![get Donation panel ](https://github.com/user-attachments/assets/1d9cc45e-b308-4ef7-95e8-3eed54d20328)
